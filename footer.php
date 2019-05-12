@@ -82,7 +82,20 @@
                                  <div class="et_pb_column et_pb_column_4_4 et_pb_column_35    et_pb_css_mix_blend_mode_passthrough et-last-child">
                                     <div class="et_pb_module et_pb_text et_pb_text_10 et_pb_bg_layout_light  et_pb_text_align_left">
                                        <div class="et_pb_text_inner">
-                                          <p>Copyright Numerian Capital, Inc. 2019  | <a href="numerian-capital-privacy-policy/index.html"> Privacy Policy  </a>|  <a href="terms-and-conditions/index.html">Terms and Conditions  |</a></p>
+									   
+									   <?php 
+							$copy_right_text = get_field('copy_right_text', 'options');
+							
+							if($copy_right_text):
+
+							echo $copy_right_text;
+								
+
+						endif; ?>
+									   
+									   
+									   
+                                        
                                        </div>
                                     </div>
                                     <!-- .et_pb_text -->

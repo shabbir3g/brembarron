@@ -23,7 +23,15 @@
 	<link rel="manifest" href="site.webmanifest">
 	<link rel="apple-touch-icon" href="icon.png">
 	<!-- Place favicon.ico in the root directory -->
+	
+	
+	<?php $favicon_upload = get_field('favicon_upload', 'options');
 
+							if($favicon_upload): ?>
+        <link rel="shortcut icon" href="<?php echo $favicon_upload['url'] ?>" sizes="32x32" type="image/x-icon">
+	<?php endif; ?>
+	
+	
 	<link rel='stylesheet' id='divi-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,latin-ext' type='text/css' media='all' />
     
 
@@ -53,9 +61,18 @@
             <div class="container clearfix et_menu_container">
                <div class="logo_container">
                   <span class="logo_helper"></span>
+				  
+				  <?php 
+							$logo = get_field('logo_upload', 'options');
+
+							if($logo): ?>
+				  
                   <a href="index.html">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/logo01.png" alt="Numerian Capital | Stock Loans | Made to Order Global Financing" id="logo" data-height-percentage="90" />
+                  <img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['title']; ?>" id="logo" data-height-percentage="90" />
                   </a>
+				  <?php endif; ?>
+				  
+				  
                </div>
                <div id="et-top-navigation" data-height="85" data-fixed-height="40">
                   <nav id="top-menu-nav">
