@@ -259,8 +259,16 @@ add_filter( 'login_headerurl', 'mbthirty_login_logo_url' );
  */
 function brembarron_scripts() {
 	
+	 if ( is_page( '14' ) ) {
+		
+		
+		wp_enqueue_style( 'brembarron-css-cache', get_template_directory_uri().'/css/cache-style.css' );
+		
+	  }
 	 
-      
+	 
+	 
+     
 	  
 	wp_enqueue_style( 'brembarron-css-transitions', get_template_directory_uri().'/css/mozart-transitions.css' );
 	wp_enqueue_style( 'brembarron-css-about', get_template_directory_uri().'/css/mozart-about.css' );
@@ -288,10 +296,20 @@ function brembarron_scripts() {
 	
 	
 	
-	wp_enqueue_style( 'brembarron-css-style', get_template_directory_uri().'/css/style.css' );
-	wp_enqueue_style( 'brembarron-css-cache', get_template_directory_uri().'/css/cache-style.css' );
+	
+	
+	
 	wp_enqueue_style( 'brembarron-css-all', get_template_directory_uri().'/css/all.min.css' );
+	wp_enqueue_style( 'brembarron-css-style', get_template_directory_uri().'/css/style.css' );
 	wp_enqueue_style( 'brembarron-style', get_stylesheet_uri() );
+	
+	 if ( !is_page( '14' ) ) {
+		
+		
+		wp_enqueue_style( 'brembarron-cssabout', get_template_directory_uri().'/css/about-page.css' );
+		
+	  }
+	
 	
 	  
 	wp_enqueue_script('jquery');

@@ -579,10 +579,7 @@ body #page-container .et_pb_button_3:hover {
     font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
     font-size: 16px;
     color: #a7a7a7!important;
-    padding-top: 6.5vw!important;
-    padding-right: 4.4vw!important;
-    padding-bottom: 2vw!important;
-    padding-left: 4.4vw!important
+   
 }
 
 .et_pb_blurb_3.et_pb_blurb h4,
@@ -759,10 +756,7 @@ body #page-container .et_pb_button_4:hover:after {
     font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
     font-size: 16px;
     color: #a7a7a7!important;
-    padding-top: 6.5vw!important;
-    padding-right: 4.4vw!important;
-    padding-bottom: 2vw!important;
-    padding-left: 4.4vw!important
+   
 }
 
 .et_pb_blurb_5.et_pb_blurb h4,
@@ -1925,9 +1919,7 @@ body #page-container .et_pb_button_1 {
     padding-bottom: 3.5vw
 }
 
-.et_pb_text_0.et_pb_text {
-    color: #ffffff!important
-}
+
 
 .et_pb_text_0 p {
     line-height: 1.5em
@@ -2680,10 +2672,7 @@ body #page-container .et_pb_cta_5.et_pb_promo .et_pb_promo_button.et_pb_button:h
     padding-top: 1.45%
 }
 
-.et_pb_text_1.et_pb_module {
-    margin-left: auto!important;
-    margin-right: auto!important
-}
+
 
 @media only screen and (min-width:981px) {
     .et_pb_text_5 {
@@ -3161,3 +3150,5 @@ body #page-container .et_pb_cta_5.et_pb_promo .et_pb_promo_button.et_pb_button:h
         font-size: 24px
     }
 }
+
+

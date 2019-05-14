@@ -24,8 +24,8 @@ body:not(.ie) .moz_about_3boxes_section .et_pb_column_1_3:hover .et_pb_image.hov
 }
 
 .moz_about_3boxes_section .et_pb_column .et_pb_blurb h4:before {
-    content: "$";
-    font-family: ETmodules !important;
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free" !important;
     color: #fff;
     display: inline-block;
     width: 0;
@@ -36,7 +36,7 @@ body:not(.ie) .moz_about_3boxes_section .et_pb_column_1_3:hover .et_pb_image.hov
     -o-transition: all .3s;
     transition: all .3s;
     vertical-align: middle;
-    font-weight: 300
+    font-weight: 900;
 }
 
 .moz_about_3boxes_section .et_pb_column:hover .et_pb_blurb h4:before {

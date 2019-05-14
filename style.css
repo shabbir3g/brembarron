@@ -21098,3 +21098,6 @@ label {
 	width: 32% !important;
 	margin-right: 1% !important;
 }
+.et_pb_text_inner p {
+	font-size: 18px;
+}

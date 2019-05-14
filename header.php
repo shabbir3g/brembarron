@@ -45,12 +45,6 @@
 			   
 					<?php dynamic_sidebar('top-bar'); ?>
 			   
-                 <!-- <ul id="et-secondary-nav" class="menu">
-					<li><a href="#">Agent Registration</a></li>
-					<li><a href="#">Agent Profile</a></li>
-					<li><a href="#">Login</a></li>
-					<li><a href="#">Agent Directory</a></li>
-                  </ul> -->
                </div>
                <!-- #et-secondary-menu -->
             </div>
@@ -67,7 +61,7 @@
 
 							if($logo): ?>
 				  
-                  <a href="index.html">
+                  <a href="<?php echo bloginfo('home'); ?>">
                   <img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['title']; ?>" id="logo" data-height-percentage="90" />
                   </a>
 				  <?php endif; ?>
@@ -97,26 +91,6 @@
 					 ?>
 					
 				  
-                   <!--  <ul id="top-menu" class="nav">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Process</a></li>
-						<li><a href="#">FAQ</a></li>
-						 <li>
-                           <a href="#">Stock Loans</a>
-                           <ul class="sub-menu">
-                              <li><a href="#">London Stock Loans</a></li>
-                              <li><a href="#">Hong Kong Stock Loans</a></li>
-                              <li><a href="#">China Stock Loans</a></li>
-                              <li><a href="#">Canada Stock Loans</a></li>
-                              <li><a href="#">OTC Stock Loans</a></li>
-                           </ul>
-                        </li>
-						<li><a href="#">Block Trades</a></li>
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Blog</a></li>
-                      
-                     </ul> -->
                   </nav>
                   <div id="et_top_search">
 					 <i class="fas fa-search"></i>
